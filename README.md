@@ -40,7 +40,7 @@ This project involves a comprehensive analysis of **Uber** trip data using **SQL
   
   <img width="166" height="105" alt="image" src="https://github.com/user-attachments/assets/257b86e6-b458-444a-80a9-545aea59c180" />
 
-  **2. By Hour and Time Total Booking:**
+  **2. Booking  by Hour and Time :**
   
   <img width="146" height="68" alt="image" src="https://github.com/user-attachments/assets/b6ceac24-983d-4f35-9ffa-47f22d32abce" />
 
