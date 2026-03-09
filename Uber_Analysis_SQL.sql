@@ -3,32 +3,32 @@ select * from [Location ]
 
 ---------------------------------- KPI's -------------------------------->
 
---1. Total Bookings – How many trips were booked over a given period?
+--1. Total Bookings â€“ How many trips were booked over a given period?
 select
 Count(*) as Total_Bookings
 from [Trip Details]; --- ANS --->  1,03,728 .
 
---2. Total Booking Value – What is the total revenue generated from all bookings?
+--2. Total Booking Value â€“ What is the total revenue generated from all bookings?
 select 
 sum(fare_amount) as Total_Booking_Value
 from [Trip Details]; --- ANS ---> Rs. 1.34 Millions .
 
---3. Average Booking Value – What is the average revenue per booking?
+--3. Average Booking Value â€“ What is the average revenue per booking?
 select 
 AVG(fare_amount) as AVG_Booking_Value
 from [Trip Details]; --- ANS ---> Rs. 12.99  .
 
---4.Total Trip Distance – What is the total distance covered by all trips?
+--4.Total Trip Distance â€“ What is the total distance covered by all trips?
 select 
 sum(trip_distance) as Total_Trip_Distance
 from [Trip Details]; --- ANS ---> 348K KM .
 
---5.Average Trip Distance – How far are customers traveling on average per trip?
+--5.Average Trip Distance â€“ How far are customers traveling on average per trip?
 select 
 AVG(trip_distance) as AVG_Trip_Distance
 from [Trip Details]; --- ANS ---> 3.36KM .
 
---6. Average Trip Time – What is the average duration of trips?
+--6. Average Trip Time â€“ What is the average duration of trips?
 select 
 AVG(DATEDIFF(MINUTE, Pickup_Time, Drop_Off_Time)) as AVG_Trip_Minutes
 from [Trip Details]; --- ANS ---> 15 Minutes .
@@ -85,7 +85,7 @@ select Vehicle , Location, total_booking, ranked from
 	join [Location ] as l
 	on td.PULocationID = l.LocationID
 	group by td.Vehicle, l.Location) t
-where ranked <=3
+where ranked <=3;
 
 
 -------------------------------------- Time Analysis ------------------------
@@ -102,6 +102,7 @@ count(*) as Total_Bookings
 from [Trip Details]
 group by DATEPART(HOUR,Pickup_Time)
 order by hours_of_day asc;
+
 
 
 
