@@ -5,7 +5,7 @@ This project involves a comprehensive analysis of **Uber** trip data using **SQL
 
 ## 3. Key Insights & Features
 
-* **KPI Trackings:** Monitoring essential metrices including ;
+* **KPI Trackings:** Monitoring essential metrices including.
    **1. Total Bookings(1,03,728)**
    **2. Total Booking Values(Rs. 1.34M)**
    **3. Average Booking Values(Rs. 12.99)**
