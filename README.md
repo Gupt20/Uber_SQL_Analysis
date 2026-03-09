@@ -25,7 +25,31 @@ This project involves a comprehensive analysis of **Uber** trip data using **SQL
  <img width="938" height="31" alt="image" src="https://github.com/user-attachments/assets/989482dc-0b5f-4314-87d3-5512c73ed84d" />
 
  **4. Top 5 Booking Locations:** Upper East Side North, East Harlem South, Lenox Hill East, East Harlem North, Upper East Side South , with the **Avg Booking value of Rs.35K**.  
- <img width="196" height="79" alt="image" src="https://github.com/user-attachments/assets/373265f1-66bb-43e6-8d69-5114b6ea8f65" />
+ <img width="196" height="79" alt="image" src="https://github.com/user-attachments/assets/373265f1-66bb-43e6-8d69-5114b6ea8f65" />  
+
+ **5. Most Preferred Vehicle for Location Pickup:**   
+ <img width="139" height="82" alt="image" src="https://github.com/user-attachments/assets/95a64f2d-0c99-4c04-9053-151eaac9165a" />  
+
+ **6. Top 3 PickUp Location by each Vehicle:**  
+ <img width="256" height="204" alt="image" src="https://github.com/user-attachments/assets/b866b84e-afeb-4baa-96fa-40a0a4d0c2b0" />  
+
+
+* **Time Based Insights:**
+  **1.  Booking trends across Monday to Sunday:**
+  <img width="166" height="105" alt="image" src="https://github.com/user-attachments/assets/257b86e6-b458-444a-80a9-545aea59c180" />
+
+  **2. By Hour and Time Total Booking:**
+  <img width="146" height="68" alt="image" src="https://github.com/user-attachments/assets/b6ceac24-983d-4f35-9ffa-47f22d32abce" />
+
+
+
+
+ 
+
+ 
+
+ 
+
 
 
 
