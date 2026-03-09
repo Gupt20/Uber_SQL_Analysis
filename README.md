@@ -1,7 +1,7 @@
 # 1. 🚕 Uber_SQL_Analysis (Using MS SQL Server)
 
 ## 2. Project Overview
-This project involves a comprehensive analysis of **Uber** trip data using **SQL** to gain insights into booking trends, revenue, and trip efficiency, helping stakeholders make data-driven decisions.
+This project involves a comprehensive analysis of **Uber** trip data using **SQL** to gain insights into booking trends, revenue, and trip efficiency, helping stakeholders make data-driven decisions. For this we used **KPI's , Location Based Analysis and Time Based Analysis** to get the better understanding of the Data.
 
 ## 3. Key Insights & Features
 
