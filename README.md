@@ -14,7 +14,10 @@ This project involves a comprehensive analysis of **Uber** trip data using **SQL
    **6. Average Trip Duration(15 Minutes)**
 
 * **1. Most Frequent Pickup Point:**
- <img width="252" height="139" alt="image" src="https://github.com/user-attachments/assets/43db4fd2-76bb-414d-b0aa-0267f4b2a475" />
+  
+ **<img width="252" height="139" alt="image" src="https://github.com/user-attachments/assets/43db4fd2-76bb-414d-b0aa-0267f4b2a475" />** 
+
+ 
   
 
  
