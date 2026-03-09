@@ -21,8 +21,12 @@ This project involves a comprehensive analysis of **Uber** trip data using **SQL
  **2. Most Frequent Drop Off Point:** The top 10 drop-off points are distributed as follows: **7 in Manhattan, 2 in Queens, and 1 in Brooklyn.**    
   <img width="228" height="139" alt="image" src="https://github.com/user-attachments/assets/181c0840-2b2c-42ec-a400-2ae000a05a9f" />
 
- **3. Farthest Trip:**  
+ **3. Farthest Trip:** Farthest Trip Distance: **144.1km** , From **Crown Heights North - Crown Heights North**.   
  <img width="938" height="31" alt="image" src="https://github.com/user-attachments/assets/989482dc-0b5f-4314-87d3-5512c73ed84d" />
+
+ **4. Top 5 Booking Locations:** Upper East Side North, East Harlem South, Lenox Hill East, East Harlem North, Upper East Side South , with the **Avg Booking value of Rs.35K**.  
+ <img width="196" height="79" alt="image" src="https://github.com/user-attachments/assets/373265f1-66bb-43e6-8d69-5114b6ea8f65" />
+
 
 
   
