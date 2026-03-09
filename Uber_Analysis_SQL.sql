@@ -58,8 +58,11 @@ group by l.Location,l.City
 order by DropOff_count desc;
 
 --3. Farthest Trip ? 
-select concat(max(trip_distance),'KM') as Trip_Distance
-from [Trip Details] --- ANS ---> 144.1KM .
+select td.*,l.Location as pickup_location , lm.Location as Drop_off_Location 
+from [Trip Details] as td
+join [Location ] as l on td.PULocationID = l.LocationID
+join [Location ] as lm on td.DOLocationID= lm.LocationID
+where trip_distance =(select max(trip_distance) from [Trip Details])  --- ANS ---> Total Distance 144.1KM from [Crown Heights North - Crown Heights North]  .
 
 --4. Total Bookings by Location (Top 5) ?
 select top 5 l.Location,SUM(fare_amount) as Total_fare_amount 
@@ -102,6 +105,7 @@ count(*) as Total_Bookings
 from [Trip Details]
 group by DATEPART(HOUR,Pickup_Time)
 order by hours_of_day asc;
+
 
 
 
