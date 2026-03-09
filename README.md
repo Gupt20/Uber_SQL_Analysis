@@ -13,13 +13,15 @@ This project involves a comprehensive analysis of **Uber** trip data using **SQL
    **5. Average Trip Distance(3.36 km)** 
    **6. Average Trip Duration(15 Minutes)**
 
-* **Location Based Insights**
+* **Location Based Insights:**
  
   **1. Most Frequent Pickup Point:** In **Top 10** Most Pickup Location come from The city **Manhattan** and **Queens**.  
   <img width="252" height="139" alt="image" src="https://github.com/user-attachments/assets/43db4fd2-76bb-414d-b0aa-0267f4b2a475" />
 
-* **2. Most Frequent Drop Off Point:** in 10 of the 7 Most drop off points come from the **Manhattan** And and 2 from **Queens** and 1 from **Brooklyn**.  
+ **2. Most Frequent Drop Off Point:** The top 10 drop-off points are distributed as follows: **7 in Manhattan, 2 in Queens, and 1 in Brooklyn.**    
   <img width="228" height="139" alt="image" src="https://github.com/user-attachments/assets/181c0840-2b2c-42ec-a400-2ae000a05a9f" />
+
+ **3.** 
 
   
   
