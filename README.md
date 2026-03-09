@@ -21,7 +21,9 @@ This project involves a comprehensive analysis of **Uber** trip data using **SQL
  **2. Most Frequent Drop Off Point:** The top 10 drop-off points are distributed as follows: **7 in Manhattan, 2 in Queens, and 1 in Brooklyn.**    
   <img width="228" height="139" alt="image" src="https://github.com/user-attachments/assets/181c0840-2b2c-42ec-a400-2ae000a05a9f" />
 
- **3.** 
+ **3. Farthest Trip:**  
+ <img width="938" height="31" alt="image" src="https://github.com/user-attachments/assets/989482dc-0b5f-4314-87d3-5512c73ed84d" />
+
 
   
   
