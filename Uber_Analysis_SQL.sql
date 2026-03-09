@@ -100,11 +100,21 @@ group by DATENAME(WEEKDAY,Pickup_Time);
 
 --2. By Hour and Time Total Booking ?
 select
-DATEPART(HOUR,Pickup_Time) as hours_of_day,
+case 
+	when DATEPART(HOUR,Pickup_Time) <=6 then '0-6am'
+	when DATEPART(HOUR,Pickup_Time) between 7 and 12 then '7am-12pm'
+	when DATEPART(HOUR,Pickup_Time) between 13 and 18 then '1am-6pm'
+	else '7pm-24pm'
+end as time_intervals,
 count(*) as Total_Bookings
 from [Trip Details]
-group by DATEPART(HOUR,Pickup_Time)
-order by hours_of_day asc;
+group by case 
+	when DATEPART(HOUR,Pickup_Time) <=6 then '0-6am'
+	when DATEPART(HOUR,Pickup_Time) between 7 and 12 then '7am-12pm'
+	when DATEPART(HOUR,Pickup_Time) between 13 and 18 then '1am-6pm'
+	else '7pm-24pm'
+end
+order by Total_Bookings desc;
 
 
 
