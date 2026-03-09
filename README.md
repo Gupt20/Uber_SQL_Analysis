@@ -35,6 +35,7 @@ This project involves a comprehensive analysis of **Uber** trip data using **SQL
 
 
 * **Time Based Insights:**
+
   **1.  Booking trends across Monday to Sunday:**
   <img width="166" height="105" alt="image" src="https://github.com/user-attachments/assets/257b86e6-b458-444a-80a9-545aea59c180" />
 
