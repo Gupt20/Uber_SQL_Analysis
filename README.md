@@ -15,7 +15,7 @@ This project involves a comprehensive analysis of **Uber** trip data using **SQL
 
 * **Location Based Insights:**
  
-  **1. Most Frequent Pickup Point:** In **Top 10** Most Pickup Location come from The city **Manhattan** and **Queens**.  
+  **1. Most Frequent Pickup Point:** The top 10 drop-off points are distributed as follows: **8 in Manhattan** and **2 in Queens**.  
   <img width="252" height="139" alt="image" src="https://github.com/user-attachments/assets/43db4fd2-76bb-414d-b0aa-0267f4b2a475" />
 
  **2. Most Frequent Drop Off Point:** The top 10 drop-off points are distributed as follows: **7 in Manhattan, 2 in Queens, and 1 in Brooklyn.**    
