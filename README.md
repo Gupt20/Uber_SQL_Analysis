@@ -1,4 +1,4 @@
-# 1. 🚕 Uber_SQL_Analysis (Using MS SQL Server)
+# 1. 🚕 Uber_Trip_Analysis (Using MS SQL Server and Power BI)
 
 ## 2. Project Overview
 This project involves a comprehensive analysis of **Uber** trip data using **SQL** to gain insights into booking trends, revenue, and trip efficiency, helping stakeholders make data-driven decisions. For this we used **KPI's , Location Based Analysis and Time Based Analysis** to get the better understanding of the Data.
@@ -43,6 +43,10 @@ This project involves a comprehensive analysis of **Uber** trip data using **SQL
   **2. Booking  by Hour and Time :**
   
   <img width="146" height="68" alt="image" src="https://github.com/user-attachments/assets/b6ceac24-983d-4f35-9ffa-47f22d32abce" />
+
+## Here is the Dashboard Image:
+<img width="598" height="336" alt="image" src="https://github.com/user-attachments/assets/75eaa94c-b4b3-4931-aef5-df53d873a144" />
+
 
 
 
