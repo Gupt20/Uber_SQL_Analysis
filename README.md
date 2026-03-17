@@ -44,7 +44,7 @@ This project involves a comprehensive analysis of **Uber** trip data using **SQL
   
   <img width="146" height="68" alt="image" src="https://github.com/user-attachments/assets/b6ceac24-983d-4f35-9ffa-47f22d32abce" />
 
-## Here is the Dashboard Image:
+## Dashboard Using Power BI:  
 <img width="598" height="336" alt="image" src="https://github.com/user-attachments/assets/75eaa94c-b4b3-4931-aef5-df53d873a144" />
 
 
